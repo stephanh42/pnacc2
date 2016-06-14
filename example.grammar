@@ -1,0 +1,10 @@
+# An example grammar
+
+main -> expr_or_decl main
+main ->
+expr_or_decl -> expr
+expr_or_decl -> decl
+expr -> INT
+expr -> expr + expr
+decl -> VAL ID = expr
+decl -> VAR ID = expr

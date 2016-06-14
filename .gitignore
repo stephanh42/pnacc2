@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+*.report
+*~
+*.json
+grammars
+pnacc2
